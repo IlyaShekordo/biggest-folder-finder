@@ -11,6 +11,5 @@ public class Main {
         ForkJoinPool pool = new ForkJoinPool();
         pool.invoke(calculator);
         System.out.println(root.getSize());
-
     }
 }
